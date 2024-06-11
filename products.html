@@ -1,0 +1,134 @@
+<html>
+    <style>
+    .box video{
+        position: absolute;
+        z-index: -1;
+        left:0;
+        top:0;
+        width:200%;
+        height:300%;
+        object-fit: cover;
+        background-size: cover;
+    }
+    .main{
+    text-align:top;
+}
+.geek1{
+    font-size: 36px;
+    font-weight: bold;
+    color:red;
+    padding-bottom: 0px;
+    TOP:0;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:30px 2px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+
+}
+.item img{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+    cursor:pointer;
+    transition:0.2s ease;
+    background:white;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h2{
+    padding:5px;
+    text-align:center;
+    color:white;
+}
+.item button{
+    padding:5px 30px;
+    border:none;
+    outline:none;
+    background-color: green;
+    color: aliceblue;
+    cursor:pointer;
+    border-radius: 4px;
+    font-size:20px;
+    display: block;
+    margin:0 auto;
+    transition: 0.2s all;
+}
+
+.item button:hover{
+    transform: scale(1.08);
+}
+
+    </style>
+    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    <body>
+        <div class="main">
+            <marquee class="marq" background="green" direction="left" behavior="scroll" loop="">
+                <div class="geek1">welcome to music villa</div>
+        </marquee>
+        <div class="box">
+            <video src="products.mp4" autoplay muted loop></video>
+        </div>
+       
+<section class="items"> 
+      <div class="item">
+        <img src="sitar.jpg" class="img-circle">
+        <h2>Sitar</h2>
+        <h2>20,000/-</h2>
+        <button onclick="window.location.href='customer.html';">order</button>
+        </div>
+        <div class="item">
+            <img src="tabla.jpg"  class="img-circle">
+            <h2>Tabla</h2>
+            <h2>8,499/-</h2>
+            <button onclick="window.location.href='customer.html';">order</button>
+            </div>
+            <div class="item">
+                <img src="veena.jpg"  class="img-circle">
+                <h2>Veena</h2>
+                <h2>17,000/-</h2>
+                <button onclick="window.location.href='customer.html';">order</button>
+                </div>
+                <div class="item">
+                    <img src="harmonium.jpg"  class="img-circle">
+                    <h2>Harmonium</h2>
+                    <h2>13,500/-</h2>
+                    <button onclick="window.location.href='customer.html';">order</button>
+                    </div><div class="item">
+                        <img src="dolak.jpg"  class="img-circle">
+                        <h2>dholak</h2>
+                        <h2>3,000/-</h2>
+                        <button onclick="window.location.href='customer.html';">order</button>
+                        </div><div class="item">
+                            <img src="flute.jpg"  class="img-circle">
+                            <h2>Flute</h2>
+                            <h2>11,000/-</h2>
+                            <button onclick="window.location.href='customer.html';">order</button>
+                            </div><div class="item">
+                                <img src="sarangi.jpg"  class="img-circle" >
+                                <h2>Sarangi</h2>
+                                <h2>35,000/-</h2>
+                                <button onclick="window.location.href='customer.html';">order</button>
+                                </div><div class="item">
+                                    <img src="guitar.jpg"  class="img-circle">
+                                    <h2>Guitar</h2>
+                                    <h2>15,000/-</h2>
+                                    <button onclick="window.location.href='customer.html';">order</button>
+                                    </div>
+                                    <div class="item">
+                                        <img src="violin.jpg"  class="img-circle">
+                                        <h2>Violin</h2>
+                                        <h2>15,500/-</h2>
+                                        <button onclick="window.location.href='customer.html';">order</button>
+                                        </div>
+</section>
+    </body>
+</html>

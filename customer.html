@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>registration page</title>
+       <script>
+        
+       </script>
+    </head>
+    <style>
+        table{
+            color: navy;
+        }
+        button{
+           position: fixed;
+           left:50%;
+           top:85%;
+           background-color:green;
+           color:white;
+        }
+        .container{
+            max-width:500px;
+            margin:100px auto;
+            padding:20px;
+            background-color:white;
+            border-radius: 5px;
+background: wheat;
+        }
+        .box video{
+    position: absolute;
+    z-index: -1;
+    left:0;
+    top:0;
+    width:200%;
+    height:100%;
+    object-fit: cover;
+    background-size: cover;
+}
+    </style>
+     <div class="box">
+        <video src="products.mp4" autoplay muted loop></video>
+    </div>
+    <div class="container">
+    <h1 ALIGN="CENTER" style="color:navy"><STRONG>MUSIC VILLA</STRONG></h1>
+    <h2 ALIGN="CENTER" style="color:navy"><i>CUSTOMER DETAILS</i></h2>
+    <table align="center">
+        <tr>
+            <td><b>Name::</b></td>
+            <td><input type="text" name="name" required></td>
+        </tr>
+        <tr>
+            <td><b>Phone number::</b></td>
+            <td><input type="number" name="number" required></td>
+        </tr>
+        <tr>
+            <td><b>Pincode::</b></td>
+            <td><input type="number" name="number" required></td>
+        </tr>
+        <tr>
+            <td><b>Address::</b></td>
+            <td><TEXTAREA name="TEXTAREA" cols="20" rows="9">Text area.....</TEXTAREA></td><br>
+        </tr>
+    
+        
+        <button onclick="window.location.href='finalstage.html';">submit</button></div>
+            
+    </table>
+</html>

@@ -1,0 +1,137 @@
+<html>
+    <head><title>aboutus page</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    <style>
+        .items{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding:30px 2px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+
+}
+        .item img{
+    width:30%;
+    height:300px;
+    object-fit: cover;
+    cursor:pointer;
+    transition:0.2s ease;
+    background: white;
+    float:right;
+    
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h3{
+    text-align: center;
+    position: relative;
+    bottom:-100px;
+    vertical-align: bottom;
+    color:white;
+    
+}
+.geek1{
+    color:red;
+}
+.about{
+    text-align: center;
+    color:red;
+    background:wheat;
+}
+.box video{
+    position: absolute;
+    z-index: -1;
+    left:0;
+    top:0;
+    width:200%;
+    height:600%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+    </style>
+    <body>
+        <div class="box">
+            <video src="about.mp4" autoplay muted loop></video>
+        </div>
+        <div class="main">
+            <marquee class="marq" background="green" direction="left" behavior="scroll" loop="">
+                <div class="geek1"><h2>In this page you will get some information about all the musical instruments</h2></div>
+        </marquee>
+        </div>
+        <div class="about"><h1>About</h1></div>
+        <div class="items"> 
+            <div class="item">
+              <img src="sitar.jpg" class="img-circle">
+              <h3>some facts about sitar instruments:
+                It is a stringed instrument of the lute family that is popular in northern India, Pakistan, and Bangladesh.
+It has a pear-shaped gourd body, a long hollow neck, and 20 arched movable frets.
+It can have as many as 21 strings, but the first sitar only had three strings.
+It is played by plucking with a plectrum called the mezrab.
+It is over 700 years old, but its origins are unknown.
+              </h3>
+              </div>
+              <div class="items"> 
+                <div class="item">
+                  <img src="sarangi.jpg" class="img-circle">
+                  <h3>Like a violin, the sarangi is played with a bow, but unlike the violin it
+                     is held vertically with the sound chamber below. The sarangi is usually carved 
+                     out of a single block of wood and its hollowed belly is covered with parchment. 
+                     It typically has three main strings and sometimes a fourth string is used as a drone.</h3></div>
+    <div class="items"> 
+        <div class="item">
+          <img src="dolak.jpg" class="img-circle">
+          <h3>The dholak is the most commonly played musical instrument in Northern India. 
+            As accompaniment to song or other instruments, the dholak and other two-headed 
+            drums similar to it (nāl, dholki, dhol) are used all 
+            across the subcontinent in countless folk genres, devotional traditions, 
+            and family functions.</h3></div>
+<div class="items"> 
+    <div class="item">
+      <img src="flute.jpg" class="img-circle">
+      <h3>Flute Facts
+        The flute is one of the highest-pitched instruments. In the flute family, the piccolo has the
+         highest pitch. Throughout its history, the flute has been made of a variety of different
+          materials, including animal bones, ivory tusks, silver, brass, nickel, glass, wood, bamboo,
+           and plastic.</h3></div>
+<div class="items"> 
+    <div class="item">
+      <img src="guitar.jpg" class="img-circle">
+      <h3>Guitar, plucked stringed musical instrument that probably originated in Spain early in the 
+        16th century, deriving from the guitarra latina, a late-medieval instrument with a waisted body
+         and four strings. The early guitar was narrower and deeper than the modern guitar, with a less
+          pronounced waist.</h3></div>
+<div class="items"> 
+    <div class="item">
+      <img src="harmonium.jpg" class="img-circle">
+      <h3>Harmonium is a stringed instrument made of wood, metal, brass, and cloth. A kind of a
+         portable wooden box, it was originated in West Bengal. The harmonium has thus become an
+          integral part of Indian Music. It is extensively used to accompany folk, classical, Sufi, 
+          and ghazal compositions for both music and dance.</h3></div>
+<div class="items"> 
+    <div class="item">
+      <img src="tabla.jpg" class="img-circle">
+      <h3>A tabla is a pair of hand drums from the Indian subcontinent. Since the 18th century, it has
+         been the principal percussion instrument in Hindustani classical music, where it may be played 
+         , as an accompaniment with other instruments and vocals, or as a part of larger ensembles.</h3></div>
+<div class="items"> 
+    <div class="item">
+      <img src="veena.jpg" class="img-circle">
+      <h3>It is a long-necked, pear-shaped lute, but instead of the lower gourd of the North Indian 
+        design, it has a pear-shaped wooden piece. However it, too, has 24 frets, four melody strings,
+         and three drone strings, and is played similarly. It remains an important and popular string 
+         instrument in classical Carnatic music.</h3></div>
+<div class="items"> 
+    <div class="item">
+      <img src="violin.jpg" class="img-circle">
+      <h3>The violin is the soprano of the string family. It was invented in the mid-16th century in 
+        northern Italy. The violin has four strings tuned in perfect fifths and wide four-octave range.
+         Sound is produced by using a bow to vibrate the strings, or by plucking the strings with a
+          finger.</h3></div>
+
+            </body>
+</html>
